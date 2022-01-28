@@ -1,15 +1,46 @@
 export const categories = [
   {
+    id: 1,
+    name: 'Mexican Food',
+    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
+  },
+  {
+    id:6,
+    name: 'Pakistani Dishes',
+    photo_url: 'https://www.masala.tv/wp-content/uploads/2020/04/Pakistani-Food.png'
+  },
+  
+  {
+    id:7,
+    name: 'Chinese Cuisine',
+    photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmLLS65cO54k22F2EVLV4IysJKWBDSKRSKw&usqp=CAU'
+  },
+
+  {
+    id:8,
+    name: 'Pakistani Traditional Food',
+    photo_url: 'https://www.destinavo.com/wp-content/uploads/2019/12/Pakistani-food.jpg'
+  },
+
+  {
+    id:9,
+    name: 'Drinks',
+    photo_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJv1uhA1Hb-RWfq9SSO7Aafxn_KIsthtZfw&usqp=CAU'
+  },
+
+  {
+    id:10,
+    name: 'Desserts',
+    photo_url: 'https://image.shutterstock.com/image-photo/homemade-cheesecake-fresh-berries-mint-260nw-631520744.jpg'
+  },
+
+  {
     id: 3,
     name: 'Cookies',
     photo_url:
     'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
   },
-  {
-    id: 1,
-    name: 'Mexican Food',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
-  },
+ 
   {
     id: 2,
     name: 'Italian Food',
@@ -24,35 +55,50 @@ export const categories = [
   },
   {
     id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
+    name: 'Pizza & Burger',
+    photo_url: 'https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=6&m=938742222&s=612x612&w=0&h=on_9ZYG1SG4Xgk7BLZSlaXJl8VYb6ZePDHTN6zukDHM='
   },
 ];
 
 export const recipes = [
   {
-    recipeId: 122,
+    recipeId: 1,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    title: 'Brownies',
+    photo_url:
+            'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2014%2F09%2F1090243_-Best-Brownies-Photo-by-Paula.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
+      'https://www.joyofbaking.com/images/facebook/brownies.jpg'
     ],
-    time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    time: '30',
+    ingredients: [
+      [1, '2 tablespoons'],
+      [3, '1 tablespoon'],
+      [4, '1 teaspoon'],
+      [5, '1/2 teaspoons'],
+      [6, '1/2 teaspoons'],
+      [7, '1/2 teaspoons'],
+      [8, '1/2 teaspoons'],
+      [9, '1/2 teaspoons'],
+      [10, '1/2 teaspoons'],
+      [11, '1/2 teaspoons'],
+      [12, '1/2 cups'],
+      [13, '1 tablespoon'],
+      [14, '1 tablespoon'],
+      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
+      [16, '1'],
+      [17, '2 quarts']
+    ],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
   },
   {
-    recipeId: 3,
+    recipeId: 2,
     categoryId: 4,
     title: 'Triple Berry Smoothie',
     photo_url:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+        'https://i.pinimg.com/originals/45/bd/fd/45bdfd8d451af149ecf5c630dec70198.jpg',
     photosArray: [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
       'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
@@ -68,7 +114,200 @@ export const recipes = [
     description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
   },
   {
-    recipeId: 2,
+    recipeId: 3,
+    categoryId: 6,
+    title: 'Chicken Biryani',
+    photo_url: 'https://img-global.cpcdn.com/recipes/975f5451eec3d5e1/751x532cq70/karachi-biryani-recipe-main-photo.jpg',
+    photosArray:[
+      'https://img-global.cpcdn.com/recipes/975f5451eec3d5e1/751x532cq70/karachi-biryani-recipe-main-photo.jpg',
+
+    ],
+    time: '30',
+    ingredients:[[0, '200ml'], [1, '5g'], [2, '300g'],[7, '1 liter']],
+    description: 
+    'Prepare the biryani masala (or use store-bought) and marinate the chicken. Cook the chicken curry. While it’s cooking over low heat, prepare the rice \n\n Bring a pot of water to a boil and parboil the rice. Drain and set aside. \n\n Layer half of the rice, all of the chicken, and then the remaining rice on top. Add the finishing touches. Allow steam to develop, then lower the heat and let the flavors meld. \n\n To make Biryani masala for this recipe, combine the following ingredients in a spice grinder and process until mostly smooth. Makes ~2 tbsp, which is the exact quantity you’ll need for this recipe. '
+  },
+  {
+    recipeId: 4,
+    categoryId: 6,
+    title: 'Chicken Karahi',
+    photo_url: 'https://i0.wp.com/www.wefindyougo.com/wp-content/uploads/2013/10/chicken-karahi.png?w=395&ssl=1',
+    photosArray:['https://i0.wp.com/www.wefindyougo.com/wp-content/uploads/2013/10/chicken-karahi.png?w=395&ssl=1'
+
+    ],
+    time: '60',
+    ingredients:[[0, '200ml'], [1, '5g'], [2, '300g'],[7, '1 liter']],
+    description: 
+    'The individuals who can afford, consume meats, for example sheep, poultry, and here and there gaye ka gosht (hamburger). There are various ways meat is ready in Pakistan. Karahi is a system where the meat is cooked with vegetables and served in its own particular container. Jalfrezi is meat blend singed with tomatoes, egg, and chilies. Tikka and bhoti kebab both allude to meat barbecued on a spit (a thin bar or stick) over an open fire.'
+  },
+  {
+    recipeId: 5,
+    categoryId: 6,
+    title: 'Haleem',
+    photo_url: 'https://bombaychowpatty.net/wp-content/uploads/2018/06/feature-image-haleem.jpg',
+    photosArray:['https://bombaychowpatty.net/wp-content/uploads/2018/06/feature-image-haleem.jpg',
+
+    ],
+    time: '25',
+    ingredients:[[7, '1 liter']],
+    description: 
+    'Chicken Haleem is a quick thing and many people prefer ready-made spice mix. So it’s up to you what you prefer ready-made spice mix or homemade. I’m sharing a spice mix recipe as well but you may skip it and use a ready-made spice mix if you find that a hassle. I’m using a number of pulses but actually, you can substitute one pulse for another if all pulses are not available.\n\nSimilarly, barley adds stickiness to Haleem so I highly recommend adding it but if you can’t find it, simply add more wheat instead of barley. One of the most important tips is wheat should be fully cooked before you blend it. And blend it very well or the texture will not be smooth. Spices are important so add extra red chili if you like spicy Haleem.'
+  },
+  {
+    recipeId: 6,
+    categoryId: 0,
+    title: 'Turkey Burger',
+    photo_url: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7818569.jpg',
+     photosArray: ['https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7818569.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'In a large bowl, mix together turkey, egg, garlic, Worcestershire sauce, and parsley, then season with salt and pepper. Form mixture into four flat patties. \n\n In a medium skillet over medium heat, heat oil. Add patties and cook until golden and cooked through, 5 minutes per side. Serve on a bun with desired toppings.'
+
+  },
+  {
+    recipeId: 7,
+    categoryId: 7,
+    title: 'Wonton Soup',
+    photo_url: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd32%2Fbroken-wonton-soup-1118-feefa3cc%2Fbroken-wonton-soup-1118-feefa3cc_horiz_0.jpg%3Fitok%3DB2oVTwmV&q=85',
+     photosArray: ['https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd32%2Fbroken-wonton-soup-1118-feefa3cc%2Fbroken-wonton-soup-1118-feefa3cc_horiz_0.jpg%3Fitok%3DB2oVTwmV&q=85',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g'], [7, '1 liter']],
+    description: 
+    'Mix pork mince with the spring onion, garlic clove, grated ginger, soy sauce and rice wine vinegar, sesame oil and ground black pepper.\n\n Add large teaspoons of mix to the centre of wonton wrappers, wet the edges and fold in half diagonally (sealing out the air). Wet the corners and fold left and right edges into the middle. This makes 30-40 wontons. Freeze extras for later use.\n\n Heat chicken stock with ginger, add gai lan (or bok choy) and spring onion and simmer to soften greens. Meanwhile, heat a pot of salted water until boiling, add wontons (allow 3-4 per person) and simmer until they float to the surface. Strain into soup bowls. Ladle over stock and greens, add soy sauce and sesame oil and chives.'
+
+  },
+  {
+    recipeId: 8,
+    categoryId: 3,
+    title: 'Oatmeal Cookies',
+    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    photosArray: [
+      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+     'https://www.chelseasmessyapron.com/wp-content/uploads/2018/10/Oatmeal-Cookie-1.jpg'
+    ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description:
+      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+  },
+
+  {
+    recipeId: 9,
+    categoryId: 6,
+    title: 'Sandwich',
+    photo_url: 'https://www.macmillandictionary.com/external/slideshow/thumb/158703_thumb.jpg',
+     photosArray: ['https://www.macmillandictionary.com/external/slideshow/thumb/158703_thumb.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [],
+    description: 
+    'Spread mayo, butter or cream cheese all the way to the edges of each slice of bread to create a seal against wet sandwich fillings. Also, try packing high moisture ingredients, like tomatoes, pickles, and cucumbers, separately. Just add them to the sandwich when you are ready to eat. Toasting the bread can help, too.'
+
+  },
+  {
+    recipeId: 10,
+    categoryId: 9,
+    title: 'Margarita',
+    photo_url: 'https://www.liquor.com/thmb/DMKen5LEhU_DPCpNPKkIkm-Cmpg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/margarita-720x720-primary-f4a3b044e9a746d9b88890515c3a7328.jpg',
+     photosArray: ['https://www.liquor.com/thmb/DMKen5LEhU_DPCpNPKkIkm-Cmpg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/margarita-720x720-primary-f4a3b044e9a746d9b88890515c3a7328.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'Add tequila, orange liqueur, lime juice and agave syrup to a cocktail shaker filled with ice, and shake until well-chilled. Strain into a rocks glass over fresh ice. Garnish with a lime wheel and kosher salt rim (optional).'
+  },
+  {
+    recipeId: 11,
+    categoryId: 8,
+    title: 'Sajji',
+    photo_url: 'https://butteroverbae.com/wp-content/uploads/2020/08/balochi-sajji-3-756x1024.jpg',
+     photosArray: ['https://butteroverbae.com/wp-content/uploads/2020/08/balochi-sajji-3-756x1024.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'Sajji can include many types of meat, but usually it’s made with chicken. The artful tactics used in display do a great job in advertising for the grill-master. If you’re like me, you may find yourself being drawn over in a trance, floating from across the street. Just walking into any shop that serves sajji should already be getting you excited. Your meat dish displayed proudly like a trophy, speared through and held aloft, dripping juices falling and sizzling on a huge bed of hot coals. Very little seasoning is used as its all about two things – the charcoal heat, and quality of the meat. As with most Pakistani food restaurants, sajji is served with a stack of piping hot roti bread, straight from the tandoor oven.'
+
+  },
+  {
+    recipeId: 12,
+    categoryId: 10,
+    title: 'Apple Pie',
+    photo_url: 'https://i.ndtvimg.com/i/2015-09/apple-pie-ice-cream-625_625x350_81443595158.jpg',
+     photosArray: ['https://i.ndtvimg.com/i/2015-09/apple-pie-ice-cream-625_625x350_81443595158.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'Just when you thought apple pie could not get any better, this recipe raises the bar like no other. Truly our best-ever, make this classic for a get-together and you might not have any leftovers to bring home. Top off this warm , melt-in-your mouth pie with a sprinkle of cinnamon and a scoop of ice cream.'
+  },
+
+  {
+    recipeId: 13,
+    categoryId: 10,
+    title: 'Pistachio Phirni',
+    photo_url: 'https://i.ndtvimg.com/i/2015-09/pistachio-phirni-625_625x350_81443596823.jpg',
+     photosArray: ['https://i.ndtvimg.com/i/2015-09/pistachio-phirni-625_625x350_81443596823.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g'], [7, '1 liter']],
+    description: 
+    'Flavoured with elaichi and pista, take phirni to a whole new level with this exquisite recipe. Serve chilled in mitti ke kasore for a festive occasion and bask in the glory. This phirni is made of sugar and love.'
+  },
+  {
+    recipeId: 14,
+    categoryId: 10,
+    title: 'Coconut Kheer',
+    photo_url: 'https://i.ndtvimg.com/i/2015-09/pistachio-phirni-625_625x350_61443595225.jpg',
+     photosArray: ['https://i.ndtvimg.com/i/2015-09/pistachio-phirni-625_625x350_61443595225.jpg',
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'This kheer is made in an extra luxurious way featuring a blend of rich and coconut milk, spruced up with nutty caramel and rose petals. We assure you, it will be hard to have just one bite of this heavenly dessert!'
+  },
+
+ 
+  {
+    recipeId: 15,
+    categoryId: 8,
+    title: 'Paaya',
+    photo_url: 'https://www.naushkitchenroutine.com/wp-content/uploads/2019/09/Mutton-Paya.png',
+     photosArray: [
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'The recipe is basic, but quite complex to prepare. The incredible flavor in it comes from the fact that it slow cooks for hours – usually since the night before the restaurant serves it. The basic ingredients include onions, red oil with curry spices, and absolutely giant bowl-fulls of bone-in goat legs and feet. Stewing for hours causes the tendons and cartilage surrounding the joint to become juicy and easily chewable, and the red curry broth elevates the entire flavor to incredible levels. This meal is always eaten with a pile of fresh, hot roti bread. It’s an oily, meaty, deliciously slimy experience, something in Pakistan you just won’t want to miss.'
+  },
+
+  {
+    recipeId: 16,
+    categoryId: 8,
+    title: 'Nihari',
+    photo_url: 'https://recipe52.com/wp-content/uploads/2019/08/Chicken-Nihari-Recipe-instagram.jpg',
+     photosArray: [
+      
+     ],
+    time: '15',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description: 
+    'Nihari is one of the most famous stews in the entire country. It is served to guests on important occasions and contains meat that is slow cooked and simmered in spices overnight. The cooking process allows the dish to absorb the flavorful bone marrow fully, creating one of the best-tasting meat dishes in the world.'
+  },
+  {
+    recipeId: 17,
     categoryId: 3,
     title: 'Vegan Cookies',
     photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
@@ -95,7 +334,7 @@ export const recipes = [
       '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
   },
   {
-    recipeId: 3,
+    recipeId: 18,
     categoryId: 3,
     title: 'Pumpkin Spice Cookies',
     photo_url:
@@ -125,41 +364,9 @@ export const recipes = [
     description:
       '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
   },
+  
   {
-    recipeId: 1,
-    categoryId: 3,
-    title: 'Brownies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-      'https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg',
-      'http://www.recipe4living.com/assets/itemimages/400/400/3/83c29ac7418067c2e74f31c8abdd5a43_477607049.jpg',
-      'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg'
-    ],
-    time: '30',
-    ingredients: [
-      [1, '2 tablespoons'],
-      [3, '1 tablespoon'],
-      [4, '1 teaspoon'],
-      [5, '1/2 teaspoons'],
-      [6, '1/2 teaspoons'],
-      [7, '1/2 teaspoons'],
-      [8, '1/2 teaspoons'],
-      [9, '1/2 teaspoons'],
-      [10, '1/2 teaspoons'],
-      [11, '1/2 teaspoons'],
-      [12, '1/2 cups'],
-      [13, '1 tablespoon'],
-      [14, '1 tablespoon'],
-      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
-      [16, '1'],
-      [17, '2 quarts']
-    ],
-    description:
-      '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
-  },
-  {
-    recipeId: 4,
+    recipeId: 19,
     categoryId: 1,
     title: 'Perfect Fish Tacos',
     photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
@@ -186,7 +393,7 @@ export const recipes = [
       '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
   },
   {
-    recipeId: 5,
+    recipeId: 20,
     categoryId: 1,
     title: 'Chicken Fajitas',
     photo_url:
@@ -217,7 +424,7 @@ export const recipes = [
       '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
   },
   {
-    recipeId: 6,
+    recipeId: 21,
     categoryId: 2,
     title: 'Buffalo Pizza',
     photo_url:
@@ -248,10 +455,10 @@ export const recipes = [
       '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
   },
   {
-    recipeId: 0,
+    recipeId: 22,
     categoryId: 0,
     title: 'Classic Lasagna',
-    photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
+    photo_url: 'https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550.jpg',
     photosArray: [
       "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
       'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
@@ -264,7 +471,7 @@ export const recipes = [
       '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
   },
   {
-    recipeId: 7,
+    recipeId: 23,
     categoryId: 2,
     title: 'Spaghetti Carbonara',
     photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
@@ -288,7 +495,7 @@ export const recipes = [
       '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
   },
   {
-    recipeId: 8,
+    recipeId: 24,
     categoryId: 2,
     title: 'Lazania',
     photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
@@ -332,7 +539,7 @@ export const ingredients = [
     ingredientId: 1,
     name: 'Salt',
     photo_url:
-      'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
+      'https://images.theconversation.com/files/283852/original/file-20190712-173347-me93jb.jpg?ixlib=rb-1.1.0&rect=0%2C167%2C1000%2C499&q=45&auto=format&w=1356&h=668&fit=crop'
   },
   {
     ingredientId: 2,
@@ -353,19 +560,19 @@ export const ingredients = [
   {
     ingredientId: 5,
     name: 'Celery salt',
-    photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
+    photo_url: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Celery_Salt%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg'
   },
   {
     ingredientId: 6,
     name: 'Dried sage',
     photo_url:
-      'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
+      'https://images-na.ssl-images-amazon.com/images/I/61XZ1xvaeXL._SL1001_.jpg'
   },
   {
     ingredientId: 7,
     name: 'Garlic powder',
     photo_url:
-      'https://us.123rf.com/450wm/belchonock/belchonock1808/belchonock180818180/106007144-bowl-of-dry-garlic-powder-on-white-background.jpg?ver=6'
+      'https://static-01.daraz.pk/p/9c73d2128b385ae1154fe1b23b29dc1d.png'
   },
   {
     ingredientId: 8,

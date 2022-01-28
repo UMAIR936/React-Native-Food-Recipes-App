@@ -4,7 +4,7 @@ const { width, height } = Dimensions.get('window');
 // orientation must fixed
 const SCREEN_WIDTH = width < height ? width : height;
 
-const numColumns = 3;
+const numColumns = 2;
 // item size
 const RECIPE_ITEM_HEIGHT = 100;
 const RECIPE_ITEM_OFFSET = 10;
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   photo: {
     width: (SCREEN_WIDTH - RECIPE_ITEM_MARGIN) / numColumns - RECIPE_ITEM_OFFSET,
     height: RECIPE_ITEM_HEIGHT,
-    borderRadius: 60
+    borderRadius: 10
   }
 });
 

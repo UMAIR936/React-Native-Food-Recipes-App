@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     width: viewportWidth,
-    height: 250
+    height: 230
   },
   paginationContainer: {
     flex: 1,

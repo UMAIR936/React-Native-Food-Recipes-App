@@ -6,9 +6,9 @@ const styles = StyleSheet.create({
     margin: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    height: 215,
-    borderColor: '#cccccc',
-    borderWidth: 0.5,
+    height: 220,
+    borderColor: 'green',
+    borderWidth: 1,
     borderRadius: 20,
   },
   categoriesPhoto: {
@@ -24,14 +24,16 @@ const styles = StyleSheet.create({
     },
     shadowRadius: 5,
     shadowOpacity: 1.0,
-    elevation: 3
+    // elevation: 3
   },
   categoriesName: {
+    
     flex: 1,
     fontSize: 20,
     fontWeight: 'bold',
+    fontStyle: 'italic',
     textAlign: 'center',
-    color: '#333333',
+    color: 'green',
     marginTop: 8
   },
   categoriesInfo: {

@@ -21,13 +21,11 @@ export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       headerTransparent: 'true',
-      headerLeft: (
-        <BackButton
-          onPress={() => {
-            navigation.goBack();
-          }}
-        />
-      )
+      headerLeft: () => <BackButton
+        onPress={() => {
+          navigation.goBack();
+        }}
+      />
     };
   };
 
@@ -74,8 +72,8 @@ export default class RecipeScreen extends React.Component {
               inactiveSlideScale={1}
               inactiveSlideOpacity={1}
               firstItem={0}
-              loop={false}
-              autoplay={false}
+              loop={true}
+              autoplay={true}
               autoplayDelay={500}
               autoplayInterval={3000}
               onSnapToItem={index => this.setState({ activeSlide: index })}

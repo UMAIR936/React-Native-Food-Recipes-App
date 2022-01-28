@@ -5,11 +5,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#2cd18a'
+    backgroundColor: 'green'
   },
   photo: {
     width: 150,
-    height: 150
+    height: 200
   }
 });
 
